@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 8, 51, 0.1), rgba(0, 8, 51, 0.1)), url(https://i.pinimg.com/736x/be/33/76/be3376b0f835a1766cb7a95003ea4a7d.jpg);
+}
+
+.container {
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    display: flex;
+    min-height: 100%;
+    width: 200vh;
+    margin-top: 15%;
+}
+
+.searchBar {
+    border-radius: 50px;
+    border-color: white;
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(0.4px);
+    height: 60px;
+    width: 500px;
+    max-width: 700px;
+    padding: 4px 20px;
+}
+
+.searchBar input {
+    height: 30px;
+    width: 400px;
+    margin-left: 10px;
+    /* background: transparent; */
+    background: rgba(255, 255, 255, 0.9);
+    outline: none;
+    flex: 1;
+    border: 0;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #434258;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+::placeholder {
+    color: rgb(137, 139, 139);
+}
+
+.searchBar button {
+    /* border: 0;
+    outline: none; */
+    flex: 1;
+    border-radius: 40px;
+    cursor: pointer;
+    border-color: 1px solid white;
+}
+
+.searchBar button img {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    font-size: 20px;
+}
+
